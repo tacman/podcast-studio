@@ -1,0 +1,213 @@
+{
+    "title": "The Kid Pan Alley Songbook: Three Holiday Songs",
+    "opening": [
+        {
+            "host": "paulbot",
+            "emotion": "excited",
+            "text": "From turkey day to the thaw, Kid Pan Alley kids wrote the soundtrack.",
+            "sources": [],
+            "chapter": null
+        },
+        {
+            "host": "cherylbot",
+            "emotion": "curious",
+            "text": "Three songs, three seasons, and every one starts with a class and a pro.",
+            "sources": [
+                4
+            ],
+            "chapter": null
+        },
+        {
+            "host": "paulbot",
+            "emotion": "happy",
+            "text": "Here come the choruses.",
+            "sources": [],
+            "chapter": null
+        }
+    ],
+    "segments": [
+        {
+            "song": 1,
+            "intro": [
+                {
+                    "host": "paulbot",
+                    "emotion": "confident",
+                    "text": "First up: second graders at Savoy gave thanks in 2016.",
+                    "sources": [
+                        1
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "cherylbot",
+                    "emotion": "curious",
+                    "text": "Paul Reisler, Cheryl Toth and Sahffi Lynne helped them write it.",
+                    "sources": [
+                        1
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "paulbot",
+                    "emotion": "excited",
+                    "text": "Here is the chorus.",
+                    "sources": [],
+                    "chapter": null
+                }
+            ],
+            "background": [
+                {
+                    "host": "cherylbot",
+                    "emotion": "curious",
+                    "text": "The verses tell the hard days, then the chorus flips to gratitude.",
+                    "sources": [
+                        1
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "paulbot",
+                    "emotion": "happy",
+                    "text": "Saxophone kicks it off, and the list of thanks is long.",
+                    "sources": [
+                        1
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "cherylbot",
+                    "emotion": "neutral",
+                    "text": "Next we leave the table and head to Christmas.",
+                    "sources": [],
+                    "chapter": null
+                }
+            ]
+        },
+        {
+            "song": 2,
+            "intro": [
+                {
+                    "host": "cherylbot",
+                    "emotion": "curious",
+                    "text": "Kindergarteners at Capitol Hill Montessori solved a Santa problem in 2013.",
+                    "sources": [
+                        2
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "paulbot",
+                    "emotion": "excited",
+                    "text": "No chimney at home, so off to the cousins’ house.",
+                    "sources": [
+                        2
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "cherylbot",
+                    "emotion": "sarcasm",
+                    "text": "Here is the chorus.",
+                    "sources": [],
+                    "chapter": null
+                }
+            ],
+            "background": [
+                {
+                    "host": "paulbot",
+                    "emotion": "happy",
+                    "text": "Paul Reisler, K.P. Alley and Lea Morris wrote it with the class.",
+                    "sources": [
+                        2
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "cherylbot",
+                    "emotion": "curious",
+                    "text": "Leave cookies on the porch, presents appear at the back door.",
+                    "sources": [
+                        2
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "paulbot",
+                    "emotion": "confident",
+                    "text": "Now we fast-forward to the end of winter.",
+                    "sources": [],
+                    "chapter": null
+                }
+            ]
+        },
+        {
+            "song": 3,
+            "intro": [
+                {
+                    "host": "paulbot",
+                    "emotion": "excited",
+                    "text": "Fourth graders at Grymes Memorial waved winter goodbye in 2024.",
+                    "sources": [
+                        3
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "cherylbot",
+                    "emotion": "curious",
+                    "text": "Paul Reisler and Paddy Dougherty helped them write it.",
+                    "sources": [
+                        3
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "paulbot",
+                    "emotion": "happy",
+                    "text": "Here is the chorus.",
+                    "sources": [],
+                    "chapter": null
+                }
+            ],
+            "background": [
+                {
+                    "host": "cherylbot",
+                    "emotion": "curious",
+                    "text": "Old Man Winter retires, summer moves in with flowers, bees and ice cream.",
+                    "sources": [
+                        3
+                    ],
+                    "chapter": null
+                },
+                {
+                    "host": "paulbot",
+                    "emotion": "happy",
+                    "text": "The kids even sang it at a school concert.",
+                    "sources": [
+                        3
+                    ],
+                    "chapter": null
+                }
+            ]
+        }
+    ],
+    "closing": [
+        {
+            "host": "cherylbot",
+            "emotion": "neutral",
+            "text": "Three holidays, three classes, three choruses.",
+            "sources": [],
+            "chapter": null
+        },
+        {
+            "host": "paulbot",
+            "emotion": "happy",
+            "text": "Kid Pan Alley keeps the music coming.",
+            "sources": [
+                4
+            ],
+            "chapter": null
+        }
+    ],
+    "summary": "Kid Pan Alley classes wrote three holiday songs: a Thanksgiving chorus from Savoy second graders, a Christmas chimney fix from Capitol Hill Montessori kindergarteners, and a winter farewell from Grymes Memorial fourth graders. All songs are co-written with professional songwriters and archived by Kid Pan Alley."
+}

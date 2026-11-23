@@ -1,0 +1,43 @@
+{
+    "theme": "Three holiday songs, from Thanksgiving to the end of winter",
+    "minutes": 2,
+    "tone": "warm and playful, for families listening together",
+    "songs": [
+        {
+            "kpaId": "savo-2016-every-day-should-be-a-thanksgiving",
+            "title": "Every Day Should Be A Thanksgiving",
+            "facts": "Written in 2016 by Paul Reisler, Cheryl Toth and Sahffi Lynne with a second grade class at Savoy. The catalog date is 19 December 2016; published by Zoidsongs and Kid Pan Alley Music. The chorus gives thanks for love, for family, for those who've come before and for those who've served our country. The verses are about the hard days: being broke and alone, clothes torn and frayed, being angry and sad, lost and having a bad day, and taking the road back home. The recording played is a studio mix that opens with a saxophone over the chorus.",
+            "recording": "https://kpa-songs.s3.amazonaws.com/every-day-should-be-a-thanksgiving/every-day-should-be-a-thanksgiving-recording.mp3",
+            "performance": "studio mix, first chorus",
+            "excerptStart": 11.5,
+            "excerptEnd": 31.0,
+            "excerptLyrics": "Every day should be a Thanksgiving, every day we should give thanks for living, for love, for family, for those who've come before, for those who've served our country, we give thanks once more"
+        },
+        {
+            "kpaId": "capi-2013-going-to-my-cousins-for-christmas",
+            "title": "Going To My Cousin's For Christmas",
+            "facts": "Written in 2013 by Paul Reisler with a kindergarten class at Capitol Hill Montessori; the catalog lists Paul Reisler, K.P. Alley and Lea Morris as writers. The catalog date is 21 December 2013; published by Zoidsongs and Kid Pan Alley Music. The song's reasoning: the singer's house has no chimney, and Santa can't come through the window because his stomach is way too big, so the singer is going to the cousins', who have a chimney. The verse adds that if you put cookies on your front porch, he'll leave your presents by the back door. This guitar and vocal version sits in the archive among the possible songs for a Kid Pan Alley Christmas album in 2023.",
+            "recording": "https://kpa-songs.s3.amazonaws.com/going-to-my-cousins-for-christmas/going-to-my-cousins-for-christmas-gv.mp3",
+            "performance": "guitar and vocal version, first chorus",
+            "excerptStart": 7.5,
+            "excerptEnd": 25.5,
+            "excerptLyrics": "I'm going to my cousin's for Christmas, cause they have a chimney for Santa to come down. If he came to my house, even if he knocked, he'd find that the doors will be locked"
+        },
+        {
+            "kpaId": "grym-2024-waving-goodbye-to-winter",
+            "title": "Waving Goodbye to Winter",
+            "facts": "Written by Paul Reisler and Paddy Dougherty with fourth graders at Grymes Memorial School, during the school's 2024 residency; the catalog date is 1 March 2025. Published by Kid Pan Alley Music and Zoidsongs, both ASCAP. In the chorus, Old Man Winter has just retired: he's getting too old for the cold. The verses look forward to flowers blooming, bees buzzing, pollen that makes everyone sneeze, playing in the pool, fishing in the stream and eating lots of ice cream. The archive also holds a recording of the fourth graders singing it at a Grymes concert.",
+            "recording": "https://kpa-songs.s3.amazonaws.com/waving-goodbye-to-winter/waving-goodbye-to-winter-gv.mp3",
+            "performance": "guitar and vocal version, first chorus",
+            "excerptStart": 6.0,
+            "excerptEnd": 28.5,
+            "excerptLyrics": "I'm waving goodbye to winter and saying hello to the endless summer, Old Man Winter has just retired, he's getting too old for the cold, and he is ready to expire"
+        }
+    ],
+    "sources": [
+        {
+            "title": "Kid Pan Alley archive",
+            "notes": "Kid Pan Alley brings children and professional songwriters together to create songs collaboratively. Its archive preserves the songs, lyrics and recordings, and the words and stories that emerge from that work."
+        }
+    ]
+}
