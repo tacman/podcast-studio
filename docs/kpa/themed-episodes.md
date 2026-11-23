@@ -1,5 +1,7 @@
 # Themed episodes of Kid Pan Alley songs (prototype)
 
+> **Moved to KPA** (`survos/kpa`, branch `feature/themed-episodes`: `docs/themed-episodes.md`, `src/Episode/`), where the songs, lyrics and recordings are. This copy is the first prototype and is no longer updated.
+
 A countdown-style episode: two synthetic hosts, PaulBot and CherylBot, introduce a song from the Kid Pan Alley (KPA) catalog, play a short excerpt, give its background, and move on to the next song. One theme per episode: holiday songs, patriotic songs, songs about animals, and so on.
 
 Status: the script is generated end to end (`app:song-episode`), with each excerpt placed and timed. Audio assembly (voices plus excerpts in one MP3) is not built yet. The first script: [holidays-script.md](holidays-script.md) (3 songs, about 2 minutes of talk plus 60 seconds of music).
