@@ -114,7 +114,7 @@ services:
     # this creates a service per class whose id is the fully-qualified class name
     App\:
         resource: '../src/'
-        # built by SpeechPlatformFactory, not services
+        # built by VoiceStudioPlatform, not a service
         exclude: '../src/Speech/'
 
     # the web search of the "researcher" agent (config/packages/ai.yaml)
@@ -125,10 +125,10 @@ services:
             $apiKey: '%env(TAVILY_API_KEY)%'
             $options: { include_images: false, max_results: 8 }
 
-    # a local VoiceStudio (VOICE_PLATFORM=voicestudio), see App\Speech\SpeechModel
+    # a local VoiceStudio (VOICE_PLATFORM=voicestudio), see App\Speech\VoiceStudioPlatform
     app.platform.voicestudio:
         class: Symfony\AI\Platform\Platform
-        factory: [App\Speech\SpeechPlatformFactory, create]
+        factory: [App\Speech\VoiceStudioPlatform, create]
         arguments:
             $httpClient: '@http_client'
             $baseUrl: '%env(VOICESTUDIO_URL)%'

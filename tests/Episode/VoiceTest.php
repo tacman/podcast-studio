@@ -8,7 +8,7 @@ use App\Episode\Line;
 use App\Episode\Script;
 use App\Episode\UnspeakableLineException;
 use App\Episode\Voice;
-use App\Speech\SpeechPlatformFactory;
+use App\Speech\VoiceStudioPlatform;
 use PHPUnit\Framework\TestCase;
 use Symfony\AI\Platform\PlatformInterface;
 use Symfony\Component\DependencyInjection\ServiceLocator;
@@ -27,7 +27,7 @@ final class VoiceTest extends TestCase
             return new MockResponse('mp3-'.\count($requests), ['response_headers' => ['content-type' => 'audio/mpeg']]);
         });
 
-        $clips = $this->voice(SpeechPlatformFactory::create($httpClient, 'http://127.0.0.1:3900/', 'kittentts'))->speak(new Script('Episode', [
+        $clips = $this->voice(VoiceStudioPlatform::create($httpClient, 'http://127.0.0.1:3900/', 'kittentts'))->speak(new Script('Episode', [
             new Line('paul', 'excited', 'Welcome!', []),
             new Line('jane', 'sarcasm', 'Oh, joy.', []),
             new Line('oliver', 'neutral', 'Once upon a time.', []),
@@ -50,7 +50,7 @@ final class VoiceTest extends TestCase
         ]));
 
         try {
-            $this->voice(SpeechPlatformFactory::create($httpClient, 'http://127.0.0.1:3900', 'kittentts'))
+            $this->voice(VoiceStudioPlatform::create($httpClient, 'http://127.0.0.1:3900', 'kittentts'))
                 ->speak(new Script('Episode', [new Line('paul', 'neutral', 'Hello.', [])]));
             self::fail('The line was voiced.');
         } catch (UnspeakableLineException $e) {

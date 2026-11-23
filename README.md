@@ -17,7 +17,7 @@ Found while building this project:
 - [symfony/ai#2873](https://github.com/symfony/ai/pull/2873): Voxtral text to speech in the Mistral bridge (merged).
 - [symfony/ai#2894](https://github.com/symfony/ai/pull/2894): the Postgres store's hybrid query no longer drops documents that share no keyword with the query (merged).
 - [symfony/ai#2966](https://github.com/symfony/ai/pull/2966): Mistral's moderation models in the Mistral bridge (open).
-- [symfony/ai#3058](https://github.com/symfony/ai/pull/3058): text to speech through any OpenAI-compatible server in the generic bridge, for the local voices below (open; `src/Speech/` is a copy until it is released).
+- [symfony/ai#3058](https://github.com/symfony/ai/pull/3058): text to speech through any OpenAI-compatible server in the generic bridge, for the local voices below (open; until it is released, composer takes `symfony/ai-generic-platform` from the [tacman/ai-generic-platform](https://github.com/tacman/ai-generic-platform) fork, branch `generic-tts`).
 
 ## Install
 

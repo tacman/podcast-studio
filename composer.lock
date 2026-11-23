@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64d553cecf781ba1b30f8f4bf1872284",
+    "content-hash": "f70356bb44fc1b91ecb413478a915ea8",
     "packages": [
         {
             "name": "composer/semver",
@@ -2274,22 +2274,22 @@
         },
         {
             "name": "symfony/ai-generic-platform",
-            "version": "dev-main",
+            "version": "dev-generic-tts",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/ai-generic-platform.git",
-                "reference": "b2f68a55b25b2d2512cd2263f5b8437367d9e2f3"
+                "url": "https://github.com/tacman/ai-generic-platform.git",
+                "reference": "789b5d3baf45b267e12eb4bfeeeb9a3c5031c6a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/ai-generic-platform/zipball/b2f68a55b25b2d2512cd2263f5b8437367d9e2f3",
-                "reference": "b2f68a55b25b2d2512cd2263f5b8437367d9e2f3",
+                "url": "https://api.github.com/repos/tacman/ai-generic-platform/zipball/789b5d3baf45b267e12eb4bfeeeb9a3c5031c6a2",
+                "reference": "789b5d3baf45b267e12eb4bfeeeb9a3c5031c6a2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2",
                 "symfony/ai-platform": "^1.0",
-                "symfony/http-client": "^7.3|^8.0"
+                "symfony/http-client": "^7.4|^8.0"
             },
             "require-dev": {
                 "phpstan/phpstan": "^2.1",
@@ -2297,12 +2297,11 @@
                 "phpstan/phpstan-strict-rules": "^2.0",
                 "phpunit/phpunit": "^11.5.53"
             },
-            "default-branch": true,
             "type": "symfony-ai-platform",
             "extra": {
                 "thanks": {
-                    "url": "https://github.com/symfony/ai",
-                    "name": "symfony/ai"
+                    "name": "symfony/ai",
+                    "url": "https://github.com/symfony/ai"
                 }
             },
             "autoload": {
@@ -2310,7 +2309,12 @@
                     "Symfony\\AI\\Platform\\Bridge\\Generic\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Symfony\\AI\\PHPStan\\": "../../../../../.phpstan/",
+                    "Symfony\\AI\\Platform\\Bridge\\Generic\\Tests\\": "Tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -2330,33 +2334,15 @@
             ],
             "description": "Generic platform bridge for Symfony AI",
             "keywords": [
-                "Bridge",
                 "ai",
+                "bridge",
                 "generic",
                 "platform"
             ],
             "support": {
-                "source": "https://github.com/symfony/ai-generic-platform/tree/main"
+                "source": "https://github.com/tacman/ai-generic-platform/tree/generic-tts"
             },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/nicolas-grekas",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-11-15T18:50:01+00:00"
+            "time": "2026-11-23T13:56:54+00:00"
         },
         {
             "name": "symfony/ai-mistral-platform",
@@ -12442,7 +12428,7 @@
         },
         {
             "package": "symfony/ai-generic-platform",
-            "version": "dev-main",
+            "version": "dev-generic-tts",
             "alias": "1.0.0-BETA2",
             "alias_normalized": "1.0.0.0-beta2"
         },
@@ -12504,5 +12490,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }

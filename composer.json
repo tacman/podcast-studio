@@ -14,7 +14,7 @@
         "nyholm/psr7": "^1.8",
         "symfony/ai-agent": "dev-main as 1.0.0-BETA2",
         "symfony/ai-bundle": "dev-main as 1.0.0-BETA2",
-        "symfony/ai-generic-platform": "dev-main as 1.0.0-BETA2",
+        "symfony/ai-generic-platform": "dev-generic-tts as 1.0.0-BETA2",
         "symfony/ai-mistral-platform": "dev-main as 1.0.0-BETA2",
         "symfony/ai-platform": "dev-main as 1.0.0-BETA2",
         "symfony/ai-postgres-store": "dev-main as 1.0.0-BETA2",
@@ -114,5 +114,11 @@
         "symfony/panther": "^2.4",
         "symfony/ux-toolkit": "^3.6",
         "symfony/web-profiler-bundle": "8.1.*"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tacman/ai-generic-platform"
+        }
+    ]
 }
